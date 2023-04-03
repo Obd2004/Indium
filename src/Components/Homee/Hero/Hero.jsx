@@ -9,11 +9,11 @@ function Hero() {
     return (
         <div className='hero'>
             <Container>
-                <main data-aos="fade-up" className='main'>
-                    <h4 data-aos="fade-up">DISCOVER A WORLD OF OPPORTUNITIES</h4>
-                    <p data-aos="fade-up">We empower a diverse IT service-oriented workforce where strong individuals are unified by a <br /> clear common purpose – to deliver excellence and high level of customer satisfaction.</p>
-                    <Link data-aos="fade-up" to="/services" >Get started</Link>
-                </main>
+                <div data-aos="fade-up" className='main'>
+                    <h4 >DISCOVER A WORLD OF OPPORTUNITIES</h4>
+                    <p>We empower a diverse IT service-oriented workforce where strong individuals are unified by a <br /> clear common purpose – to deliver excellence and high level of customer satisfaction.</p>
+                    <Link to="/services" >Get started</Link>
+                </div>
             </Container>
             <div className='hero__blur'></div>
         </div>

@@ -5,7 +5,10 @@ import AboutUs from "./Pages/AboutUs/AboutUs";
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import './main.scss'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function App() {
+  AOS.init()
   return (
     <>
       <Header/>

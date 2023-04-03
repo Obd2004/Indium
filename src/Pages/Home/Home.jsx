@@ -3,7 +3,7 @@ import './Home.scss'
 import Homee from '../../Components/Homee/Homee'
 function Home() {
   return (
-    <div>
+    <div className='home'>
       <Homee />
     </div>
   )
