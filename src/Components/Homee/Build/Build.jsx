@@ -10,12 +10,12 @@ function Build() {
     <section className='build'>
         <Container>
             <main className="build__main">
-                <div className="build__main__left">
+                <div data-aos="fade-up-right" className="build__main__left">
                     <img src={buildRight} alt="" />
                 </div>
-                <div className="build__main__right">
+                <div data-aos="fade-up-left" className="build__main__right">
                     <div className="build__main__right__logo">
-                        <img src={buildLogo} alt="" />
+                        <img  src={buildLogo} alt="" />
                     </div>
                     <main className='build__main__right__main'>
                         <div className="build__main__right__main__images">

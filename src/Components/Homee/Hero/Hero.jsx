@@ -9,7 +9,7 @@ function Hero() {
     return (
         <div className='hero'>
             <Container>
-                <div data-aos="fade-up" className='main'>
+                <div data-aos="fade-down" data-aos-duration="1000" className='main'>
                     <h4 >DISCOVER A WORLD OF OPPORTUNITIES</h4>
                     <p>We empower a diverse IT service-oriented workforce where strong individuals are unified by a <br /> clear common purpose – to deliver excellence and high level of customer satisfaction.</p>
                     <Link to="/services" >Get started</Link>

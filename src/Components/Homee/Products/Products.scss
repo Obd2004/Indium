@@ -1,28 +1,37 @@
 .products{
-    margin-top: 200px;
+    padding-top: 200px;
+    background-color: #F5F5FA;
+    margin: 0;
     &__cards{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin-top: 50px;
+        padding-top: 50px;
+        padding-left: 0;
+        margin: 0;
         li{
             list-style-type: none;
             padding-left: 0;
+            background-color: #ffffff;
+            padding: 15px;
+            margin: 0;
             .card1__logo{
-                width: 350px;
+                width: 100%;
                 background: #454654;
                 height: 200px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                margin: 0;
             }       
             .card2__logo{
-                width: 350px;
+                width: 100%;
                 background: #454654;
                 height: 200px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                margin: 0;
             }   
             h4{
                 font-family: 'Open Sans';
@@ -33,7 +42,8 @@
                 display: flex;
                 align-items: center;
                 color: #454654;
-
+                margin: 0;
+                padding-bottom: 10px;
             }
             p{
                 font-family: 'Open Sans';
@@ -43,7 +53,9 @@
                 line-height: 22px;
                 display: flex;
                 align-items: center;
-                color: #454654;    
+                color: #454654;   
+                margin: 0;
+                padding-bottom: 10px; 
             }
             a{
                 font-family: 'Open Sans';
@@ -58,11 +70,15 @@
                 border-bottom: 1px solid #EB3F57;
                 padding-bottom: 5px;
                 display: inline;
+                margin: 0;
             }
  
         }
         .item2{
-            transform: translateY(100px);
+            transform: translateY(100px);   
+            padding: 0;
+            padding: 15px;
+            margin: 0;
         }
     }
 }

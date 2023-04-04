@@ -8,11 +8,11 @@ function Products() {
   return (
     <div className='products'>
         <Container>
-            <main className="products__logo">
-                <img src={productsLogo} alt="" />
+            <main   className="products__logo">
+                <img  data-aos-duration="1000" data-aos="fade-down-right" src={productsLogo} alt="" />
             </main>
             <ul className="products__cards">
-                <li className='item1'>
+                <li data-aos="fade-up" data-aos-duration="1000" className='item1'>
                     <div className='card1__logo'>
                       <img src={productsCard1} alt="" />
                     </div>
@@ -20,7 +20,7 @@ function Products() {
                     <p>In today’s digital world, the ability to effectively <br /> integrate across different systems, data sources, <br /> and channels is fundamental. Indium <br /> technologies has a long history of successfully <br /> and efficiently integrating a variety of <br /> client-based systems</p>
                     <Link to='services'>Read More</Link>
                 </li>
-                <li className='item2'>
+                <li data-aos-duration="1000" className='item2'>
                     <div className='card2__logo'>
                       <img src={productsCard1} alt="" />
                     </div>
@@ -28,7 +28,7 @@ function Products() {
                     <p>In today’s digital world, the ability to effectively <br /> integrate across different systems, data sources, <br /> and channels is fundamental. Indium <br /> technologies has a long history of successfully <br /> and efficiently integrating a variety of <br /> client-based systems</p>
                     <Link to='services'>Read More</Link>
                 </li>
-                <li className='item3'>
+                <li data-aos="fade-down" data-aos-duration="1000" className='item3'>
                     <div className='card1__logo'>
                       <img src={productsCard1} alt="" />
                     </div>

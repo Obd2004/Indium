@@ -2,7 +2,11 @@
 header{
     height: 15vh;
     padding-top: 25px;
+
     .navbar{
+        &__logo{
+            cursor: pointer;
+        }
         &__list{
             display: flex;
             justify-content: space-between;

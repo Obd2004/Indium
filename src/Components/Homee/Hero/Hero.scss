@@ -4,20 +4,11 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    position: relative;
-    &__blur{
-        background-image: url(../../../assets/images/HomeBg4.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        filter: blur(3px);
-        height: 635px;
-        position: absolute;
-        top: 0px;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: -1;
-    }
+    background-image: url(../../../assets/images/HomeBg5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 635px;
     .main{
         display: flex;
         justify-content: center;

@@ -9,7 +9,7 @@ function Header() {
       <Container>
         <nav className='navbar'>
           <div className="navbar__logo">
-            <img src={logo} alt="" />
+            <Link  to='/'><img src={logo} alt="" /></Link>
           </div>
           <ul className="navbar__list">
             <li>
