@@ -1,11 +1,25 @@
-import React from 'react'
+import React, { useContext, useEffect } from 'react'
 import './Build.scss'
 import { Container } from 'reactstrap'
 import buildRight from '../../../assets/images/buildRight.png'
 import buildLogo from '../../../assets/images/buildLogo.png'
 import buildImg1 from '../../../assets/images/buildImg1.png'
 import buildImg2 from '../../../assets/images/buildImg2.png'
+import { build } from '../../../Data/Data'
+import { Context } from '../../../Context/Context'
 function Build() {
+    const lang = ['uz', 'ru', 'en']
+    const { lan, setLan } = useContext(Context)
+  
+  
+    const handleChange = (event) => {
+      setLan(event.target.value);
+    };
+  
+    useEffect(() => {
+      window.localStorage.setItem('lan', lan)
+    }, [lan])
+
   return (
     <section className='build'>
         <Container>
@@ -24,12 +38,12 @@ function Build() {
                         </div>
                         <div className="build__main__right__main__rightt">
                             <div>
-                                <h4>Our Mission & Vision </h4>
-                                <p>As experienced professionals in the field of  <br /> software development, user experience, and <br /> marketing performance, we are aware of the hard <br /> work, dedication, and overall diligence required to <br /> prosper in modern-day business.</p>
+                                <h4>{build?.map((e)=> e[`title1_${lan}`])}</h4>
+                                <p>{build?.map((e)=> e[`text1_${lan}`])}</p>
                             </div>
                             <div>
-                                <h4> Our Approach </h4>
-                                <p>As a result, we offer our clients with the <br /> development of CRM cloud systems, bespoke <br /> website development and design, project and R&D <br /> management, custom development, and system <br /> integration.</p>
+                                <h4> {build?.map((e)=> e[`title2_${lan}`])} </h4>
+                                <p>{build?.map((e)=> e[`text2_${lan}`])}</p>
                             </div>
                         </div>
                     </main>
