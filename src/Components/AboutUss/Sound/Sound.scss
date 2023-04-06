@@ -1,0 +1,42 @@
+.sound {
+    background: #F5F5FA;
+    padding-bottom: 90px;
+    padding-top: 200px;
+    &__main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+
+        h4 {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 49px;
+            text-transform: uppercase;
+            color: #EB3F57;
+        }
+
+        button {
+            background: linear-gradient(180deg, #EB3F57 0%, #893944 100%);
+            box-shadow: 5px 5px 10px rgba(170, 170, 204, 0.5), -5px -5px 10px #FFFFFF;
+            border-radius: 32px;
+            padding: 10px 22px;
+            border: none;
+            margin-top: 18px;
+
+            a {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 19px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                text-decoration: none;
+
+            }
+        }
+    }
+}

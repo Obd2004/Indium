@@ -10,17 +10,8 @@ import { btn, whoWeAre } from '../../../Data/Data'
 function WhoWeAre() {
 
 
-    const lang = ['uz', 'ru', 'en']
-    const { lan, setLan } = useContext(Context)
+    const { lan } = useContext(Context)
 
-
-    const handleChange = (event) => {
-        setLan(event.target.value);
-    };
-
-    useEffect(() => {
-        window.localStorage.setItem('lan', lan)
-    }, [lan])
 
     Aos.init()
     return (

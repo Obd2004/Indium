@@ -1,9 +1,19 @@
 import React from 'react'
 import './Hero.scss'
+import { Container } from 'reactstrap'
+import { Link } from 'react-router-dom'
 function Hero() {
   return (
-    <div>
-        <h1>Hero</h1>
+    <div className='aboutHero'>
+        <Container>
+          <div className='aboutHero__main'>
+            <h4>Lorem ipsum dolor sit amet sit amet</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <span className='aboutHero__main__scroll_down'>
+              <a href='#tech'><i className="bi bi-arrow-down"></i></a>
+            </span>
+          </div>
+        </Container>
     </div>
   )
 }

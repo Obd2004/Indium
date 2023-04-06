@@ -128,6 +128,7 @@ export const btn = [
         id:1,
         btn_uz:"boshlash",
         btn_ru:"начать",
-        btn_en:"get started"
+        btn_en:"get started",
+        href: "/about"
     }
 ]

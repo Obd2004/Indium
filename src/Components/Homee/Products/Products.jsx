@@ -32,15 +32,15 @@ function Products() {
             </div>
             <h4>{products?.map((e)=> e[`title_${lan}`])}</h4>
             <p>{products?.map((e)=> e[`text_${lan}`])}</p>
-            <Link to='services'>Read More</Link>
+            <Link to='/about#products'>Read More</Link>
           </li>
-          <li data-aos-duration="1000" className='item2'>
+          <li className='item2'>
             <div className='card2__logo'>
               <img src={productsCard1} alt="" />
             </div>
             <h4>{products?.map((e)=> e[`title_${lan}`])}</h4>
             <p>{products?.map((e)=> e[`text_${lan}`])}</p>
-            <Link to='services'>Read More</Link>
+            <Link to='/about'>Read More</Link>
           </li>
           <li data-aos="fade-down" data-aos-duration="1000" className='item3'>
             <div className='card1__logo'>
@@ -48,7 +48,7 @@ function Products() {
             </div>
             <h4>{products?.map((e)=> e[`title_${lan}`])}</h4>
             <p>{products?.map((e)=> e[`text_${lan}`])}</p>
-            <Link to='services'>Read More</Link>
+            <Link to='/about'>Read More</Link>
           </li>
         </ul>
       </Container>
