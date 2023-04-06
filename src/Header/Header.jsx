@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import './Header.scss'
 import { Container } from 'reactstrap'
 import logo from '../assets/images/logo.png'
@@ -18,8 +18,9 @@ function Header() {
   useEffect(() => {
     window.localStorage.setItem('lan', lan)
   }, [lan])
+
   return (
-    <header>
+    <header >
       <Container>
         <nav className='navbar'>
           <div className="navbar__logo">

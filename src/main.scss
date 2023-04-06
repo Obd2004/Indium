@@ -1,3 +1,25 @@
-body{
+body {
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
 }
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+  /* Scrolni relsi */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+
+  }
+
+//   scrollni o'zi
+::-webkit-scrollbar-thumb {
+    background: #EB3F57;
+    -webkit-transition: background 1s;
+    transition: background 1s;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #EB3F57 0%, #893944 100%);
+  }
