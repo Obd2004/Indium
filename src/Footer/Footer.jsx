@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useContext, useEffect } from 'react'
 import './Footer.scss'
 import Aos from 'aos'
 import { Container } from 'reactstrap'
 import logo from '../assets/images/logo.png'
 import { Link } from 'react-router-dom'
+import { Nav } from '../Data/Data'
+import { Context } from '../Context/Context'
 function Footer() {
+  
+  const { lan } = useContext(Context)
+
   Aos.init()
   return (
     <div className='footer'>
@@ -14,21 +19,13 @@ function Footer() {
             <img src={logo} alt="" />
           </div>
           <ul className="footer__section__list">
-            <li>
-              <Link to='/'>Home</Link>
-            </li>
-            <li>
-              <Link to='/about'>About Us</Link>
-            </li>
-            <li>
-              <Link to='/services'>Services</Link>
-            </li>
-            <li>
-              <Link to='/careers'>Careers</Link>
-            </li>
-            <li className='footer__section__list__item7'>
-              <Link to='/contact'>Contact Us</Link>
-            </li>
+            {
+              Nav?.map((e) => (
+                <li className='list__item ' key={e.id}>
+                  <Link to={e.href}>{e[`nav_${lan}`]}</Link>
+                </li>
+              ))
+            }
           </ul>
         </footer>
       </Container>

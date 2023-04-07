@@ -40,7 +40,7 @@ function Header() {
                       <option key={i} value={e}>{e}</option>
                     ))
                   }
-              </select>
+            </select>
           </ul>
 
         </nav>

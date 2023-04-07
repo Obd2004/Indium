@@ -1,9 +1,12 @@
 import React from 'react'
 import './Careerss.scss'
+import Hero from './Hero/Hero'
+import Team from './Team/Team'
 function Careerss() {
   return (
     <div>
-        <h1>Careerss</h1>
+        <Hero/>
+        <Team/>
     </div>
   )
 }

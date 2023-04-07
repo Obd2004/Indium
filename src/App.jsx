@@ -7,6 +7,9 @@ import Footer from "./Footer/Footer";
 import './main.scss'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Services from "./Pages/Services/Services";
+import Careers from "./Pages/Careers/Careers";
+import Positsion from "./Pages/Positsion/Positsion";
 function App() {
   AOS.init()
   return (
@@ -15,6 +18,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<AboutUs/>} />
+        <Route path="/services" element={<Services/>}/>
+        <Route path="/careers" element={<Careers/>}/>
+        <Route path="/opencareers" element={<Positsion/>}/>
       </Routes>
       <Footer/>
     </>

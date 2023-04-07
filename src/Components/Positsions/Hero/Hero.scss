@@ -1,5 +1,5 @@
-.aboutHero {
-    background-image: url(../../../assets/images/AboutImgages/heroImg.png);
+.positsionHero {
+    background-image: url(../../../assets/images/Careers/heroBg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -33,32 +33,6 @@
             color: #FFFFFF;
             width: 1000px;
             padding-top: 15px;
-        }
-        &__scroll_down{
-            margin-top: 50px;
-            animation: scrollDown 1s infinite;
-            border: 2px solid #EB3F57;
-            width: 70px;
-            height: 70px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 50%;
-            box-shadow: 1px 1px 20px #EB3F57;
-            i{
-                color: #fff;
-                font-size: 36px;
-                animation: scrollDown 1s infinite;
-            }
-
-            @keyframes scrollDown {
-                50%{
-                    transform: translateY(20px);
-                }
-                100%{
-                    transform: translateY(0);
-                }
-            }
         }
     }
 }

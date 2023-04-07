@@ -1,5 +1,5 @@
-.aboutHero {
-    background-image: url(../../../assets/images/AboutImgages/heroImg.png);
+.heroServices {
+    background-image: url(../../../assets/images/Services/heroBg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -9,11 +9,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
     &__main {
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
+
         h4 {
             font-family: 'Open Sans';
             font-style: normal;
@@ -23,6 +25,7 @@
             text-transform: uppercase;
             color: #EB3F57;
         }
+
         p {
             font-family: 'Open Sans';
             font-style: normal;
@@ -34,7 +37,8 @@
             width: 1000px;
             padding-top: 15px;
         }
-        &__scroll_down{
+
+        &__scroll_down {
             margin-top: 50px;
             animation: scrollDown 1s infinite;
             border: 2px solid #EB3F57;
@@ -45,18 +49,23 @@
             align-items: center;
             border-radius: 50%;
             box-shadow: 1px 1px 20px #EB3F57;
-            i{
+
+
+            i {
                 color: #fff;
                 font-size: 36px;
                 animation: scrollDown 1s infinite;
+
             }
 
             @keyframes scrollDown {
-                50%{
+                50% {
                     transform: translateY(20px);
                 }
-                100%{
+
+                100% {
                     transform: translateY(0);
+
                 }
             }
         }

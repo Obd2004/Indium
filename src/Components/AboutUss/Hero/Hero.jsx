@@ -1,7 +1,6 @@
 import React from 'react'
 import './Hero.scss'
 import { Container } from 'reactstrap'
-import { Link } from 'react-router-dom'
 function Hero() {
   return (
     <div className='aboutHero'>

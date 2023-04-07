@@ -1,0 +1,89 @@
+.team {
+    padding-top: 50px;
+    background: #F5F5FA;
+    padding-bottom: 400px;
+
+    &__main {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        flex-direction: column;
+
+        &__title {
+            padding-bottom: 100px;
+
+            h2 {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 36px;
+                line-height: 49px;
+                text-transform: uppercase;
+                color: #454654;
+
+            }
+
+            span {
+                color: #EB3F57;
+                width: 100px;
+
+                i {
+                    font-size: 46px;
+
+                }
+
+
+            }
+        }
+
+        &__table {
+            display: flex;
+            flex-direction: column;
+            list-style-type: none;
+            padding-left: 0;
+            width: 1000px;
+            margin: 0 auto;
+            background: #FFFFFF;
+            box-shadow: 0px 20px 27px rgba(0, 0, 0, 0.05);
+
+            li {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                padding: 15px 48px;
+                border-bottom: 3px solid #F5F5FA;
+
+                h4 {
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 21px;
+                    line-height: 29px;
+                    color: #EB3F57;
+
+                }
+                a {
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 21px;
+                    line-height: 29px;
+                    color: #EB3F57;
+                    padding-left: 10px;
+                    text-decoration: none;
+                    h5 {
+                        font-family: 'Open Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 21px;
+                        line-height: 29px;
+                        color: #EB3F57;
+                        cursor: pointer;
+    
+                    }
+                }
+            }
+        }
+    }
+}
