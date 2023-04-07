@@ -7,7 +7,7 @@ function ItServices() {
   return (
     <section className='servicesIt'>
       <Container>
-        <main className='servicesIt__main'>
+        <main data-aos-duration="1000" data-aos="flip-right" className='servicesIt__main'>
           <div className="servicesIt__main__left">
             <img src={leftImg} alt="" />
           </div>

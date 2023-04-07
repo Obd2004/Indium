@@ -10,6 +10,7 @@ import 'aos/dist/aos.css';
 import Services from "./Pages/Services/Services";
 import Careers from "./Pages/Careers/Careers";
 import Positsion from "./Pages/Positsion/Positsion";
+import Contact from "./Pages/ContactUs/Contact";
 function App() {
   AOS.init()
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/services" element={<Services/>}/>
         <Route path="/careers" element={<Careers/>}/>
         <Route path="/opencareers" element={<Positsion/>}/>
+        <Route path="/contact" element={<Contact/>}/>
       </Routes>
       <Footer/>
     </>

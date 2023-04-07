@@ -3,9 +3,9 @@ import './Hero.scss'
 import { Container } from 'reactstrap'
 function Hero() {
     return (
-        <div className='careersHero'>
+        <div  className='careersHero'>
             <Container>
-                <div className='careersHero__main'>
+                <div data-aos="fade-down" data-aos-duration="1000" className='careersHero__main'>
                     <h4>Lorem ipsum dolor sit amet sit amet</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     <span className='careersHero__main__scroll_down'>

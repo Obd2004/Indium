@@ -7,11 +7,11 @@ function Team() {
     <div id='team' className='team'>
       <Container>
         <div className="team__main">
-          <div className="team__main__title">
+          <div data-aos="fade-right" data-aos-duration="1000" className="team__main__title">
             <h2>join our team of <br /> professionals</h2>
             <span><i class="bi bi-arrow-right"></i></span>
           </div>
-          <ul className="team__main__table">
+          <ul data-aos="fade-up" data-aos-duration="1000" className="team__main__table">
             <li>
               <h4>UI/UX Designer</h4>
               <Link to='/opencareers'>

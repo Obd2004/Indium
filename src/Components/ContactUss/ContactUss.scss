@@ -1,0 +1,15 @@
+.contactUs{
+    background: #F5F5FA;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 159px;
+    padding-bottom: 200px;
+    &__bg{
+        width: 650px;
+        position: absolute;
+        right: 0;
+        top: 0px;
+    }
+}
